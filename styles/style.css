@@ -1,8 +1,173 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+/* Header section style start */
 header {
-    position: absolute;
     width: 1920px;
     height: 1322px;
-    left: 0px;
-    top: 0px
     background-color: rgba(255, 144, 14, 0.1);
 }
+
+nav {}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 200px;
+}
+
+.nav-tittle {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-options {
+    margin-top: 60px;
+
+}
+
+.nav-options a {
+    text-decoration: none;
+    width: 477px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-right: 40px;
+    text-align: center;
+
+}
+
+.banner {
+    align-items: center;
+}
+
+.banner-tittle {
+    position: center;
+    padding-left: 529px;
+    padding-right: 529px;
+    padding-top: 100px;
+    width: 862px;
+    text-align: center;
+}
+
+.banner-tittle h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+
+}
+
+.banner-tittle p {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 868px;
+    height: 52px;
+}
+
+button {
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px, 24px, 20px;
+    margin-bottom: 50px;
+}
+
+
+.banner img {
+    width: 1440px;
+    height: 700px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 45px;
+    border-radius: 8px;
+}
+
+/* Header section style end  */
+
+/* Quick list of Our Features section style  */
+
+.team {
+    display: flex;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: 342px 342px;
+    row-gap: 24px;
+    column-gap: 24px;
+    margin-left: 300px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.team img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.team-text {
+    width: 537px;
+    height: 304px;
+    text-align: left;
+    margin-top: 332px;
+    margin-right: 300px;
+    margin-left: 75px;
+
+}
+
+.text-text h3 {
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+}
+
+.t1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.t2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.t3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.team-text p {
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    line-height: 26px;
+    color: #727272
+}
+
+/* Quick list of Our Features section style end  */
